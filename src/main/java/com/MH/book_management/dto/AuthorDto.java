@@ -10,5 +10,5 @@ public class AuthorDto {
     private Integer id;
 
     @NotBlank(message = "이름을 입력하세요")
-    private  String name;
+    private String name;
 }
