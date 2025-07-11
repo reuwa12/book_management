@@ -28,17 +28,6 @@ public class AuthorRepository {
         return author;
     }
 
-    public Author update(Integer id, Author updateAuthor){
-        if(!store.containsKey(id)) {
-         throw new NoSuchElementException(id +"의 저자가 없습니다");
-        }
-
-        updateAuthor.setId(id);
-        store.put(id, updateAuthor);
-
-        return updateAuthor;
-    }
-
     public void delete(Integer id) {
         store.remove(id);
     }

@@ -1,4 +1,4 @@
-package com.h662.book_management.controller;
+package com.MH.book_management.controller;
 
 import com.MH.book_management.dto.BookDto;
 import com.MH.book_management.model.Book;
